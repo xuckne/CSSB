@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #252121;
+    line-height: 2;
+}
+
+a {
+    text-decoration: none;
+    color: bisque;
+}
+
+header {
+    background-color: #442D25;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+a:hover{
+    color:#a26d5b;
+}
+
+nav ul {
+    margin-left: 20px;
+    list-style: none;
+    text-align: right;
+    word-spacing: 7px;
+}
+
+li {
+    font-size: 25px;
+    display: inline;
+}
+
+.hero {
+    background-image: url(fon.png);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: rgb(236, 201, 159);
+    text-align: center;
+    text-shadow: 3px 3px 3px black;
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    text-shadow: 10px 10px 20px black;
+}
+
+section {
+    padding: 40px;
+    text-align: justify;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+    color: #a26d5b;
+    text-shadow: 0px 0px 2px rgb(28, 20, 15);
+}
+
+p{
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial;
+}
+
+footer{
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.social a{
+    color: #fff;
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+.social a:hover {
+    color:#813d28;
+}
+
+.button{
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #52352b;
+    border-radius: 30px;
+}
+
+.card {
+    background-color: #593118;
+    width: 330px;
+    border-radius: 20px;
+    padding: 15px;
+    box-shadow: 10px 10px 40px;
+    margin: auto;
+    margin-bottom: 30px;
+
+}
+
+.card-img{
+    width: 320px;
+    border-radius: 11px;
+}
+
+.card-title{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    color: aliceblue;
+}
+
+.card-opisanie{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 5px;
+    color: aliceblue;
+}
+
+.btn{
+    background-color: #6e5b54;
+    padding: 7px 12px;
+    border-radius: 5px;
+}
+
+.btn-keep{
+    text-align: center;
+    margin-top: 10px;
+}
